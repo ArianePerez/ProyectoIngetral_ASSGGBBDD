@@ -8,4 +8,4 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ../sql:/docker-entrypoint-initdb.d
+      - ../mysql:/docker-entrypoint-initdb.d
